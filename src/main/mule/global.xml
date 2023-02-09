@@ -33,5 +33,7 @@ http://www.mulesoft.org/schema/mule/error-handler-plugin http://www.mulesoft.org
     <json-logger:config name="JsonLoggerConfig" doc:name="JSON Logger Config" doc:id="949e0cab-b29d-4ab9-94ff-2ba779a28c68" environment="${mule.env}" applicationName="#[app.name]"/>
 	<configuration doc:name="Configuration" doc:id="ef26f7df-b414-44f7-9516-9afbe68579d5" defaultErrorHandler-ref="Global_Error_Handler" />
 	<error-handler-plugin:config name="errorHandlerPluginConfig" doc:name="Error Handler Plugin Config" doc:id="7a946789-5c91-40ac-b106-6540e68f81d1" />
+
    
+
 </mule>

@@ -22,5 +22,6 @@ http://www.mulesoft.org/schema/mule/box http://www.mulesoft.org/schema/mule/box/
 		<json-logger:logger doc:name="startOfHealthCheck" doc:id="98561649-0750-46f8-9f76-2daff65aeceb" config-ref="JsonLoggerConfig" message='"Request received"'/>
 	</flow>
 
+
 </mule>
 

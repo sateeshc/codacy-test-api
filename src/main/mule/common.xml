@@ -86,4 +86,5 @@ output application/json
 }]]]></json-logger:content>
 		</json-logger:logger>
 	</sub-flow>
+
 </mule>

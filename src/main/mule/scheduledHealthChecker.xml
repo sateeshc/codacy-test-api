@@ -15,4 +15,5 @@ http://www.mulesoft.org/schema/mule/json-logger http://www.mulesoft.org/schema/m
 		<http:request method="GET" doc:name="callHealthEndPoint" doc:id="790a1bf0-13d4-468b-8900-89f6707582b8" config-ref="healthCheckRequestConfig" path="${health.request.path}"/>
 		<json-logger:logger doc:name="logHealthCheckStatus" doc:id="f76d4d64-74f4-4566-8f73-360218ce8148" config-ref="JsonLoggerConfig" message="health check status: pass" category="${json.logger.category}" tracePoint="END"/>
 	</flow>
+
 </mule>

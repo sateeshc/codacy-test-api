@@ -19,4 +19,5 @@ http://www.mulesoft.org/schema/mule/json-logger http://www.mulesoft.org/schema/m
     <flow name="get:\health:Api_Raml_Template_Config">
 		<flow-ref doc:name="getHealthImplFlow" doc:id="e4e27df6-1f95-4b3f-aecf-9ceb385d3c3d" name="getHealthImpl_mainFlow"/>
     </flow>
+
 </mule>
